@@ -129,7 +129,62 @@ const softwareIDEs: IconData[] = [
         width: 36,
         height: 36,
         xOffset: 0,
-    }
+    },
+    {
+    name: ['Jupyter Notebook'],
+    colorFrom: '#F37726',
+    colorTo: '#DA5B00',
+    icon: `<svg width="36" height="36" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="50" cy="50" r="40" stroke="white" fill="none" stroke-width="10"/>
+    </svg>`,
+    width: 36,
+    height: 36,
+    xOffset: 0,
+},
+{
+    name: ['Google Colab'],
+    colorFrom: '#F9AB00',
+    colorTo: '#E37400',
+    icon: `<svg width="36" height="36" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <text x="10" y="50" fill="white" font-size="40">C</text>
+    </svg>`,
+    width: 36,
+    height: 36,
+    xOffset: 0,
+},
+{
+    name: ['Amazon SageMaker'],
+    colorFrom: '#232F3E',
+    colorTo: '#1D2937',
+    icon: `<svg width="36" height="36" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <rect x="10" y="10" width="80" height="80" stroke="white" fill="none" stroke-width="10"/>
+    </svg>`,
+    width: 36,
+    height: 36,
+    xOffset: 0,
+},
+{
+    name: ['Kaggle'],
+    colorFrom: '#20BEFF',
+    colorTo: '#119BDB',
+    icon: `<svg width="36" height="36" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <text x="10" y="50" fill="white" font-size="40">K</text>
+    </svg>`,
+    width: 36,
+    height: 36,
+    xOffset: 0,
+},
+{
+    name: ['Deepnote'],
+    colorFrom: '#4285F4',
+    colorTo: '#3367D6',
+    icon: `<svg width="36" height="36" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <rect x="10" y="10" width="80" height="80" stroke="white" fill="none" stroke-width="10"/>
+    </svg>`,
+    width: 36,
+    height: 36,
+    xOffset: 0,
+}
 ]
 
 export default softwareIDEs
